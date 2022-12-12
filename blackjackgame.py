@@ -64,3 +64,18 @@ while True:
         print("Dealer stands.")
         break
 
+# Calculate final scores
+player_score = sum(player_cards)
+dealer_score = sum(dealer_cards)
+
+# Determine the winner
+if player_score > 21:
+    print("Dealer wins!")
+elif dealer_score > 21:
+    print("Player wins!")
+elif player_score > dealer_score:
+    print("Player wins!")
+elif dealer_score > player_score:
+    print("Dealer wins!")
+else:
+    print("It's a tie!")
