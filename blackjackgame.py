@@ -24,3 +24,18 @@ while True:
     for card in player_cards:
         print(card)
     print(f"Player's score: {player_score}")
+
+    # Check if player has busted
+    if player_score > 21:
+        print("Player busted!")
+        break
+
+    # Ask player if they want to hit or stand
+    action = input("Do you want to hit or stand? ")
+
+    # If player stands, break out of the loop
+    if action.lower() == "stand":
+        break
+
+    # If player hits, deal another card
+    player_cards.append(cards.pop()
