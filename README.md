@@ -7,4 +7,13 @@ Our group created a python program that is all about blackjack, it is game where
 
 UML DIAGRAM:
 
-             ![Screenshot (115)](https://user-images.githubusercontent.com/117683949/206960629-b78a0c8b-8da3-47a8-b4c1-161cdf66d058.png)
+![Screenshot (115)](https://user-images.githubusercontent.com/117683949/206960629-b78a0c8b-8da3-47a8-b4c1-161cdf66d058.png)
+
+
+
+
+
+
+
+VIDEO PRESENTATION:
+https://youtu.be/LLpdo3_KLKs
