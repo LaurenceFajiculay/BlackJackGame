@@ -38,4 +38,4 @@ while True:
         break
 
     # If player hits, deal another card
-    player_cards.append(cards.pop()
+    player_cards.append(cards.pop()) 
