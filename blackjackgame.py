@@ -39,3 +39,28 @@ while True:
 
     # If player hits, deal another card
     player_cards.append(cards.pop()) 
+
+    # Dealer's turn
+while True:
+    # Calculate dealer's total score
+    dealer_score = sum(dealer_cards)
+
+    # Show dealer's cards and score
+    print("Dealer's cards:")
+    for card in dealer_cards:
+        print(card)
+    print(f"Dealer's score: {dealer_score}")
+
+    # Check if dealer has busted
+    if dealer_score > 21:
+        print("Dealer busted!")
+        break
+
+    # If dealer has less than 17 points, hit
+    if dealer_score < 17:
+        dealer_cards.append(cards.pop())
+    else:
+        # Stand if dealer has 17 or more points
+        print("Dealer stands.")
+        break
+
